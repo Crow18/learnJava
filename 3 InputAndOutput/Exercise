@@ -1,0 +1,23 @@
+create a program that takes input and displays them after all
+of the inputs are entered.
+
+you can use:
+    next();
+    nextInt();
+    nextLine();
+    nextDouble();
+    hasnext();
+
+input should be:
+    Hello this is a ladder progression
+    1010.02
+    2
+
+output should be:
+    String : Hello this is a ladder progression
+    Double : 1010.02
+    Int : 2
+
+Note :
+    nextInt and nextDouble only scans numbers.
+    if you get stuck call nextLine to move to the nextline

@@ -20,8 +20,16 @@ public class loops
 
         System.out.println("------------------------");
 
+        int k = 5;
+        do{
+            System.out.println("k = " + k + "runs before the condition");
+            k++;
+        }while(k < 3);
+        //prints 5
 
-        // now that you know about these loops we can learn about break and continue
+        System.out.println("------------------------");
+
+        // Now that you know about these loops we can learn about break and continue
         i = 0;
         while(i <= 100)
         {

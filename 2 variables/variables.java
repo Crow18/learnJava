@@ -20,8 +20,8 @@ public class variables
 /*-------------------Variables---------------------*/
 /*
     *)To declare variables you will need to have:
-      (Type) (variable_name) = (value);
-      String  MyRandVarname  =  "test";
+      (Data Type) (variable_name) = (value);
+       String  MyRandVarname  =  "test";
     
       for floats you will need to add f after value
       so that it can be recognized as a
