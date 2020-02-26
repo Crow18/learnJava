@@ -1,8 +1,8 @@
 public class methods
 {
-    public static void Name()
+    public static void Name() //this a method
     {
-        System.out.println("Kauthar");
+        System.out.println("Kauthar"); //when method called this line will run
     }
 
     public static void LastName()
