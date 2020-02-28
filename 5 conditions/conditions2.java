@@ -10,7 +10,7 @@ public class conditions2
                 System.out.println("Talk");
                 break;
             case 2:
-                System.out.println("Food");
+                System.out.println("Snack");
                 break;
             case 3:
                 System.out.println("Cigarettes");

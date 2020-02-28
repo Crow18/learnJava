@@ -1,4 +1,4 @@
-public class conditions1
+public class conditions
 {
     public static void main(final String args[])
     {
@@ -39,6 +39,23 @@ public class conditions1
         else
         {
             System.out.println("ignore all above statements and do this if none were successful");
+        }
+
+        /*------------------------EXAMPLE-WITH-!--------------------------------------------*/
+
+        int example3 = 10;
+
+        if(!(example3 == 9)) //NOTE the ! before the check, ! does the opposite of condition
+        {
+            System.out.println("checks if example3 is NOT equal to 9");
+        }
+        else if(example3 != 9)
+        {
+            System.out.println("not equal to 9");
+        }
+        else
+        {
+            System.out.println("end");
         }
     }
 }
