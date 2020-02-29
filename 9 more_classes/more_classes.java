@@ -42,3 +42,31 @@ public class more_classes
         System.out.println(mc2.Month); //changed var
     }
 }
+
+/*-----------------------MORE_CLASSES---------------------------*/
+/*								*/
+/*								*/
+/*	|----------------KAUTHAR()----------------------|	*/
+/*	|						|	*/
+/*	| String name = Kauthar				|	*/
+/*	|						|	*/
+/*	| String lastName = Schoeman			|	*/
+/*	|						|	*/
+/*	|_______________________________________________|	*/
+/*								*/
+/*								*/
+/*______________________________________________________________*/
+
+/*
+	lets say i want to access KAUTHAR(), i can do by doing:
+	
+	MORE_CLASSES Kay = new MORE_CLASSES;
+	
+	String temp = Kay.KAUTHAR.name;
+
+	so in this case i made a string equal what is at name thats
+	inside KAUTHAR() that is inside MORE_CLASSES.
+	Think about it like directories, one thing holds another 
+	and so on. with this you can Manage and utilise content
+*/
+				

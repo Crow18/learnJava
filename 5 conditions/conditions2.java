@@ -43,7 +43,8 @@ public class conditions2
     
     *) break out of every case otherwise it will run all of
         the cases before the case you swich case on the one 
-        you need.
+        you need. Think of it like a LADDER, if you dont break
+	it will run all the steps before the one you need
 
     *) defualt is like the ELSE statement. if none of the cases
         match then it will execute.
