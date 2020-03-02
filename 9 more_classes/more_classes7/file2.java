@@ -1,4 +1,4 @@
-package more_classes6;
+package more_classes7;
 
 public class file2
 {
