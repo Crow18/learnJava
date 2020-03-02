@@ -1,4 +1,4 @@
-public class more_classes7
+public class more_classes8
 {
     //explaining this keyword in this example
 
@@ -13,7 +13,7 @@ public class more_classes7
     }
     public static void main(String[] args)
     {
-        more_classes7 thisTest = new more_classes7();
+        more_classes8 thisTest = new more_classes8();
 
         thisTest.Test();
     }

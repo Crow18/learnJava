@@ -1,58 +1,35 @@
 public class more_classes5
 {
-    //we will focus on modifiers in this one :D
+    int x;
+    int y;
 
-    /*-----------Final---------*/
-    final String name = "Kauthar"; //readonly, can not be changed when accessed
-
-    final void name()
+    public more_classes5() //constructor, has same name as class
     {
-        more_classes5 finalTestMethod = new more_classes5(); //needs a new instance to access final
-
-        String word = finalTestMethod.name; //Kauthar
-        System.out.println("final method has readonly value of " + word);
+        x = 9; //assign value to x 
     }
-   /*---------------------------------------------------------------------------*/
 
-    /*---------Static------------*/
-    static String test = "open"; //aaah the hoe of all modifiers, can be used anywhere in class, 
-                                //often used for a common property
-
-    static void wrap()
+    public more_classes5(int i) //constructors can take parameters
     {
-        System.out.println("I acan be used anywhere in class and dont need a new instance");
+        x = i;
     }
-    /*---------------------------------------------------------------------------*/
 
-    /*--------Protected-----------*/
-    protected String tset = "only Class and Package"; //only classes in the same package or subclasses have access
-
-    protected void hold()
+    public more_classes5(int i, int j)
     {
-        String axe = "weapon";
-        System.out.println(axe);
+        x = i;
+        y = x + j;
     }
-    
+
     public static void main(String[] args)
     {
-        more_classes5 Test = new more_classes5();
+        more_classes5 obj = new more_classes5();
+        more_classes5 obj2 = new more_classes5(19, 12);
+        more_classes5 obj3 = new more_classes5(10);
 
-        System.out.println(Test.name); // prints readonly Kauthar
-        Test.name(); //will use method thats vars can not be changed
-        //Test.name = "Melanie"; is an illegal action as name is a final and can't be changed
-        System.out.println("\n");
-        /*------------------------------------------------------------------------------------------*/
+        System.out.println(obj.x + "\n"); //prints 9
 
-        System.out.println(test); //no new instance of class needed
-        wrap(); //same here
-        System.out.println("\n");
-        /*-------------------------------------------------------------------------------------------*/
+        System.out.println(obj2.x + " " + obj2.y + "\n"); //prints 19 31
 
-        System.out.println(Test.tset); //has access because of same class
-        Test.hold(); // ditto/same
+        System.out.println(obj3.x); //prints 10
     }
 }
-
-/*
-    *) Thats all for now, ill try and do the others later but for now these are the main ones to look at
-*/
+}
