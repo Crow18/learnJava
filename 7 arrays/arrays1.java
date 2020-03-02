@@ -24,14 +24,17 @@ public class arrays1
 
         System.out.println(words[0][0]); //prints I
         System.out.println(words[1][0]); //prints Like
+        
         System.out.println(words[1][2]);//prints Much
-
 
         System.out.println(" ");
         
          
-        System.out.println(words[0].length);
-        System.out.println(words[1].length);
+        System.out.println(words[0].length); //length of array 0
+        System.out.println(words[1].length + "\n"); //length of array 1
+
+        System.out.println(words[0][1].length()); //length of you in array 0
+        System.out.println(words[1][1].length()); //length of sweet in array 1
         
     }
 }

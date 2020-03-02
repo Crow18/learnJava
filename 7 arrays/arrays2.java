@@ -93,4 +93,28 @@ public class arrays2
     *) ARRAYLISTS are cool becuase you can modify them
        and easily maintain them. they will come in handy
        alot. theres more to it but I will put that in later
+
+       when you make an array list you need to pass it an object
+       then name it, let it equal a new arraylist of that object type
+
+       Arraylist<Object> NAME = new Arraylist<object>();
+
+       you cant pass in a Primitive for object, Primitives are all the variables
+       except String variable. We can add a wrapper class to make it work. 
+       Wrapper classes for each of the primitives are as follows:
+
+       ----------------------------------
+       | Primitive  |   Wrapper Class   |
+       ----------------------------------
+       | int        |   Integer         |
+       | boolean    |   Boolean         |
+       | short      |   Short           |
+       | char       |   Character       |
+       | double     |   Double          |
+       | float      |   Float           |
+       | long       |   Long            |
+       ----------------------------------
+
+       Arraylist<Integer> intList = new Arraylist<Integer>();  //correct
+       Arraylist<int> intList = new Arraylist<int>();         //incorrect
 */
