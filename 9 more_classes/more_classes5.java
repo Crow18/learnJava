@@ -32,4 +32,3 @@ public class more_classes5
         System.out.println(obj3.x); //prints 10
     }
 }
-}
